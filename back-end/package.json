@@ -1,0 +1,34 @@
+{
+  "name": "graphqlserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/utkarshp21/graphql-server-setup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/utkarshp21/graphql-server-setup/issues"
+  },
+  "homepage": "https://github.com/utkarshp21/graphql-server-setup#readme",
+  "dependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/register": "^7.13.16",
+    "apollo-server-express": "^2.24.0",
+    "connect": "^3.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.16.4",
+    "graphql": "^15.5.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.4.6",
+    "qs-middleware": "^1.0.3"
+  }
+}
