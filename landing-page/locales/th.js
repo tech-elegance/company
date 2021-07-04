@@ -17,8 +17,7 @@ export default {
       <p class="spacing">
         Web Application สำหรับองค์กรหรือบริษัท,เว็บข่าว,เว็บ
         E-commerce,เว็บธุรกิจหรือการตลาด,เว็บการศึกษา,เว็บที่เชื่อมต่อกับ
-        IOT และอื่นๆที่คุณต้องการ เราใช้ Node.js
-        ในการทำเป็นหละักเพื่อการตอบสนองที่เร็ว
+        IOT และอื่นๆที่คุณต้องการ
       </p>
       <p class="spacing">
         Moblie Application เราพัฒนาแอพมือถือ Android และ IOS แบบ

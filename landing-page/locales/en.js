@@ -16,7 +16,7 @@ export default {
     title: "Hi, We are Tech Elegance.",
     sub_title: `Tech Elegance is a software and marketing team. They offer a wide range of web development services. graphic design digital marketing and mobile app development. We provide CMS and graphic design solutions.
     <p class="spacing">
-    Web Application for organizations or companies, web news, web E-commerce, business or marketing web, education web, IoT-connected web and anything else you need. We use Node.js to customize for fast response.
+    Web Application for organizations or companies, web news, web E-commerce, business or marketing web, education web, IoT-connected web and anything else you need.
     </p>
     <p class="spacing">
     Moblie Application We develop hybrid Android and IOS. We use modern frameworks such as React Native and Flutter to make it faster. Including working fast, easy to use, Realtime can set the scope as needed.
