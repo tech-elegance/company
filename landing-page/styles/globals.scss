@@ -46,6 +46,19 @@ body::-webkit-scrollbar-button {
   text-indent: 50px;
 }
 
+.fade-in {
+  opacity: 0;
+  transform: translateY(10vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  will-change: opacity, visibility;
+}
+
+.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
 
 @media (min-width: 1024px) {
   .carousel_width {
