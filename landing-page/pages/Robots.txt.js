@@ -1,5 +1,3 @@
-import React from "react";
-
 const Robots = () => {};
 
 export const getServerSideProps = ({ res }) => {

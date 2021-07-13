@@ -1,12 +1,12 @@
 import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import Image from "next/image";
 import React from "react";
 import en from "../locales/en";
 import th from "../locales/th";
 import Header from "../components/Header";
 import { NextSeo } from "next-seo";
+import Image from "next/image";
 import style from "./index.module.scss";
 import {
   FcMultipleDevices,
@@ -117,12 +117,46 @@ export default function Home({ deviceType }) {
                   </div>
                 </div>
                 <div className="grid justify-items-center">
-                  <motion.div
+                  {/* <motion.div
                     animate={{ y: [0, 20, 0] }}
                     transition={{ duration: 3, repeat: Infinity }}
+                  > */}
+                  <div
+                    className="flex"
+                    style={{
+                      backgroundImage: `url("https://res.cloudinary.com/techelegance/image/upload/v1626180020/Tech%20Elegance/landing%20page/backgrounds/4223372_hsbiqr.png")`,
+                      backgroundSize: "150px 300px",
+                      backgroundRepeat: "no-repeat",
+                      // backgroundAttachment: "fixed",
+                      backgroundPosition: "center",
+                      height: "350px",
+                    }}
                   >
-                    <div className={style.background_1} />
-                  </motion.div>
+                    <motion.div
+                      animate={{ y: [0, 10, 0] }}
+                      transition={{ duration: 3, repeat: Infinity }}
+                    >   
+                      <img
+                        height={200}
+                        width={150}
+                        className="mr-24"
+                        src="https://res.cloudinary.com/techelegance/image/upload/v1626180020/Tech%20Elegance/landing%20page/backgrounds/girl_fuer90.png"
+                        alt="Picture of the author"
+                      />
+                    </motion.div>
+                    <motion.div
+                      animate={{ y: [10, 0, 10] }}
+                      transition={{ duration: 3, repeat: Infinity }}
+                    >
+                      <img
+                        height={200}
+                        width={150}
+                        src="https://res.cloudinary.com/techelegance/image/upload/v1626180020/Tech%20Elegance/landing%20page/backgrounds/boy_x34d6c.png"
+                        alt="Picture of the author"
+                      />
+                    </motion.div>
+                  </div>
+                  {/* </motion.div> */}
                 </div>
               </div>
               <div className="grid justify-items-center">
@@ -164,7 +198,7 @@ export default function Home({ deviceType }) {
                       <Link href="/service/wordpress">
                         <a
                           href="#"
-                          className="relative hover:bg-indigo-50 py-4 px-4 hover:text-indigo-500"
+                          className="relative  py-4 px-4 hover:text-indigo-500"
                           onClick={soundClickButton}
                         >
                           <dt>
@@ -185,7 +219,7 @@ export default function Home({ deviceType }) {
                       <Link href="/service/website">
                         <a
                           href="#"
-                          className="relative hover:bg-indigo-50  py-4 px-4 hover:text-indigo-500"
+                          className="relative   py-4 px-4 hover:text-indigo-500"
                           onClick={soundClickButton}
                         >
                           <dt>

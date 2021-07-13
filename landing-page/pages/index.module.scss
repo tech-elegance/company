@@ -125,12 +125,19 @@ button.learn_more {
 }
 
 @media (max-width: 464px) {
-  .background_1 {
-    background-image: url("https://res.cloudinary.com/techelegance/image/upload/v1623136729/Tech%20Elegance/landing%20page/backgrounds/hero_otzli3.png");
+  .background {
+    background-image: url("https://res.cloudinary.com/techelegance/image/upload/v1626180020/Tech%20Elegance/landing%20page/backgrounds/4223372_hsbiqr.png");
     height: 180px;
     width: 250px;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .image1 {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    border: 3px solid #73ad21;
   }
 
   .background_2 {
